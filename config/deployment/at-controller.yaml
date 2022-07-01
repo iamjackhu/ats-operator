@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: at-controller
+spec:
+  selector:
+    matchLabels:
+      app: at-controller
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: at-controller
+    spec:
+      containers:
+      - name: at-controller
+        image: harbor-repo.vmware.com/alp/test/tester:v1
+        ports:
+        - containerPort: 8080
+        env:
+        - name: REGION
+          value: eu-west-1
+      serviceAccountName: at-controller-manager

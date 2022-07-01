@@ -1,0 +1,16 @@
+mode: set
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:52.94,59.16 5 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:66.2,68.33 2 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:72.2,72.31 1 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:89.2,90.17 2 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:94.2,94.27 1 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:59.16,60.29 1 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:63.3,63.33 1 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:60.29,62.4 1 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:68.33,70.3 1 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:73.27,76.46 3 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:77.27,80.43 3 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:81.24,83.28 2 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:84.10,86.28 2 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:90.17,92.3 1 0
+ats-operator.programming-kubernetes.info/controllers/at_controller.go:98.65,102.2 1 0

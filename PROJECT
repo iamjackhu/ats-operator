@@ -1,0 +1,16 @@
+domain: programming-kubernetes.info
+layout:
+- go.kubebuilder.io/v3
+projectName: ats-operator
+repo: ats-operator.programming-kubernetes.info
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: programming-kubernetes.info
+  group: cnat
+  kind: At
+  path: ats-operator.programming-kubernetes.info/api/v1
+  version: v1
+version: "3"
